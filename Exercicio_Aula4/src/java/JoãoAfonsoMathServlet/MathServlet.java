@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
  */
-package JoãoAfonsoMathServlet;
+package MathServlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Fatec
  */
 @WebServlet(name = "MathServlet", urlPatterns = {"/mathservlet.html"})
-public class MathServlet extends HttpServlet {
+public class JoaoMathServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
